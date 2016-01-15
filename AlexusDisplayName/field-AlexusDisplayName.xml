@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<field export_callback_method="" export_callback_class="" field_callback_method="" field_callback_class="" field_choices_callback_class="" field_choices_callback_method="" display_callback_method="" display_callback_class="" max_length="0" match_callback_method="" match_callback_class="" match_regex="" match_type="none" field_type="textbox" display_order="1" field_id="AlexusDisplayName" addon_id="AlexusDisplayName">
+  <title><![CDATA[Display Name]]></title>
+  <description><![CDATA[Name to show instead of username]]></description>
+  <display_template><![CDATA[]]></display_template>
+  <field_choices/>
+  <templates/>
+  <admin_templates/>
+  <phrases/>
+</field>

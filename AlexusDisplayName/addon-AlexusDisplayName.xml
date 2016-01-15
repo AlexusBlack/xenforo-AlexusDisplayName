@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="AlexusDisplayName" title="Display Name by Alex Chernov" version_string="1.0.0" version_id="1" url="" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="init_dependencies" execute_order="5" callback_class="AlexusDisplayName_Listener" callback_method="init" active="1" hint="" description="Display Name by Alex Chernov"/>
+  </code_event_listeners>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases/>
+  <route_prefixes/>
+  <style_properties/>
+  <templates/>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes/>
+  <user_fields>
+    <field export_callback_method="" export_callback_class="" field_callback_method="" field_callback_class="" field_choices_callback_class="" field_choices_callback_method="" display_callback_method="" display_callback_class="" max_length="0" match_callback_method="" match_callback_class="" match_regex="" match_type="none" field_type="textbox" display_order="1" field_id="AlexusDisplayName" addon_id="AlexusDisplayName">
+      <title><![CDATA[Display Name]]></title>
+      <description><![CDATA[Name to show instead of username]]></description>
+      <display_template><![CDATA[]]></display_template>
+      <field_choices/>
+    </field>
+  </user_fields>
+</addon>
